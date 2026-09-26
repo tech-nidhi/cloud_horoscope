@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production build
+/build
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Lambda build / package artifacts
+lambda_function/boto3/
+lambda_function/boto3-*.dist-info/
+lambda_function/botocore/
+lambda_function/botocore-*.dist-info/
+lambda_function/dateutil/
+lambda_function/python_dateutil-*.dist-info/
+lambda_function/jmespath/
+lambda_function/jmespath-*.dist-info/
+lambda_function/s3transfer/
+lambda_function/s3transfer-*.dist-info/
+lambda_function/urllib3/
+lambda_function/urllib3-*.dist-info/
+lambda_function/six.py
+lambda_function/six-*.dist-info/
+lambda_function/bin/
+*.zip
+
+# Environment & local settings
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
